@@ -3,11 +3,9 @@
 
     $id=$_GET["author"];
 
-    echo $id;
 
     $sql="SELECT * FROM `newlibrary` WHERE author_last_name like '$id'";
     $result = mysqli_query ($connect, $sql);
-    echo $sql;
     $layout ="";
 
     if (mysqli_num_rows ($result) > 0){
