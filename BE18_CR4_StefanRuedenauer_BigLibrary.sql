@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Erstellungszeit: 25. Mrz 2023 um 16:17
+-- Erstellungszeit: 25. Mrz 2023 um 16:37
 -- Server-Version: 10.4.27-MariaDB
 -- PHP-Version: 8.2.0
 
@@ -59,7 +59,8 @@ INSERT INTO `newlibrary` (`id`, `title`, `image`, `isbn`, `short_description`, `
 (26, 'StarTrek', 'https://image.stern.de/31762206/t/X-/v2/w1440/r1.7778/-/06--ein-wiedersehen-mit-den-kult-stars---16-9---spoton-article-1019688.jpg', 8372, 'Star Trek (deutsch etwa: „Sternenreise“, „Sternentreck“, „Reise durchs All“) ist ein langlebiges US-amerikanisches Science-Fiction-Franchise, das der Filmproduktionsgesellschaft Paramount Pictures bzw. deren Mutterkonzern Paramount Global gehört. Es basiert auf der von Gene Roddenberry erdachten Fernsehserie Raumschiff Enterprise, die unter dem Titel Star Trek in den Vereinigten Staaten von 1966 bis 1969 erstausgestrahlt wurde. ', 'DVD', 'Gene', 'Roddenberry', 'Sony Pictures', 'Los Angeles', '2005-01-01', 'available'),
 (27, 'Wirtschaft und Recht', 'https://sfr-fotografie.at/wp-content/uploads/2020/10/Wasserpark_2015-am-2015-12-25_785-800x533.jpeg', 20309321, 'Die von Paramount lizenzierten, ebenfalls zum Franchise gehörenden über 1000 Comics[1] und die in mehr als 700 Bänden erschienenen Romane und Kurzgeschichten gehören überwiegend nicht zum Kanon.', 'book', 'Andreas', 'Möller', 'Random House Publishing', 'Villach', '1982-03-09', 'available'),
 (28, 'Die Antwort auf alles', 'https://sfr-fotografie.at/wp-content/uploads/2020/10/LNT_Lounge_Augarten-vom-06.-September-2018-19-50_19479.jpeg', 27439, 'e Fernsehserien und Kinofilme erschienen in zahlreichen Ländern und Sprachen, darunter auch auf Deutsch. Zu den wichtigsten der insgesamt über 100 Auszeichnungen für die Serien und Filme gehören 33 Emmy Awards, ein Oscar und mehrere Hugo Awards.', 'book', 'Jörg', 'Haider', 'Arthouse Publlishing', 'New York', '1999-03-20', 'reserved'),
-(29, 'Stolz und Vorurteil', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/360px-PrideAndPrejudiceTitlePage.jpg', 742377, 'Stolz und Vorurteil[1] (Originaltitel 1813 Pride and Prejudice) ist der bekannteste Roman der britischen Schriftstellerin Jane Austen. ', 'book', 'Jane ', 'Austen', 'Fillhouse Books', 'London', '2000-03-23', 'available');
+(29, 'Stolz und Vorurteil', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/360px-PrideAndPrejudiceTitlePage.jpg', 742377, 'Stolz und Vorurteil[1] (Originaltitel 1813 Pride and Prejudice) ist der bekannteste Roman der britischen Schriftstellerin Jane Austen. ', 'book', 'Jane ', 'Austen', 'Fillhouse Books', 'London', '2000-03-23', 'available'),
+(30, 'Einstieg in PHP 7 und MySQL', 'https://m.media-amazon.com/images/I/71rbfI7AyVL._AC_UF1000,1000_QL80_.jpg', 38362, 'Lernen Sie programmieren mit PHP! Dieses Buch begleitet Sie sicher bei Ihren ersten Schritten: von der Installation eines lokalen Webservers ', 'book', 'Thomas', ' Theis', 'Rheinwerk Computing', 'Deutschland', '2017-03-28', 'available');
 
 --
 -- Indizes der exportierten Tabellen
@@ -79,7 +80,7 @@ ALTER TABLE `newlibrary`
 -- AUTO_INCREMENT für Tabelle `newlibrary`
 --
 ALTER TABLE `newlibrary`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
